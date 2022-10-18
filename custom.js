@@ -1,7 +1,5 @@
 (function($) {
     "use strict";
-    //$("#sidebar_menu").metisMenu();
-    //$("#admin_profile_active").metisMenu();
     $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
         if (scroll < 400) {
@@ -233,67 +231,7 @@
     if (bootstrapTag.length) {
         bootstrapTag.tagsinput();
     }
-    /*if ($('.lms_table_active').length) {
-        $('.lms_table_active').DataTable({
-            bLengthChange: false,
-            "bDestroy": true,
-            language: {
-                search: "<i class='ti-search'></i>",
-                searchPlaceholder: 'Quick Search',
-                paginate: {
-                    next: "<i class='ti-arrow-right'></i>",
-                    previous: "<i class='ti-arrow-left'></i>"
-                }
-            },
-            columnDefs: [{
-                visible: false
-            }],
-            responsive: true,
-            searching: false,
-        });
-    }
-    if ($('.lms_table_active2').length) {
-        $('.lms_table_active2').DataTable({
-            bLengthChange: false,
-            "bDestroy": false,
-            language: {
-                search: "<i class='ti-search'></i>",
-                searchPlaceholder: 'Quick Search',
-                paginate: {
-                    next: "<i class='ti-arrow-right'></i>",
-                    previous: "<i class='ti-arrow-left'></i>"
-                }
-            },
-            columnDefs: [{
-                visible: false
-            }],
-            responsive: true,
-            searching: false,
-            info: false,
-            paging: false
-        });
-    }
-    if ($('.lms_table_active3').length) {
-        $('.lms_table_active3').DataTable({
-            bLengthChange: false,
-            "bDestroy": false,
-            language: {
-                search: "<i class='ti-search'></i>",
-                searchPlaceholder: 'Quick Search',
-                paginate: {
-                    next: "<i class='ti-arrow-right'></i>",
-                    previous: "<i class='ti-arrow-left'></i>"
-                }
-            },
-            columnDefs: [{
-                visible: false
-            }],
-            responsive: true,
-            searching: false,
-            info: true,
-            paging: true
-        });
-    }*/
+    
     $('.layout_style').click(function() {
         if ($(this).hasClass('layout_style_selected')) {
             $(this).removeClass('layout_style_selected');
