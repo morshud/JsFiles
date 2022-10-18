@@ -233,7 +233,7 @@
     if (bootstrapTag.length) {
         bootstrapTag.tagsinput();
     }
-    if ($('.lms_table_active').length) {
+    /*if ($('.lms_table_active').length) {
         $('.lms_table_active').DataTable({
             bLengthChange: false,
             "bDestroy": true,
@@ -293,7 +293,7 @@
             info: true,
             paging: true
         });
-    }
+    }*/
     $('.layout_style').click(function() {
         if ($(this).hasClass('layout_style_selected')) {
             $(this).removeClass('layout_style_selected');
