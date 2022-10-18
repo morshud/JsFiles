@@ -1,6 +1,6 @@
 (function($) {
     "use strict";
-    $("#sidebar_menu").metisMenu();
+    //$("#sidebar_menu").metisMenu();
     $("#admin_profile_active").metisMenu();
     $(window).on('scroll', function() {
         var scroll = $(window).scrollTop();
